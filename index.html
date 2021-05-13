@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            the piano one
+        </title>
+    </head>
+    <script>
+        function play() {
+        var audio = document.getElementById("audio1");
+        audio.play();}
+        function play1() {
+        var audio = document.getElementById("audio2");
+        audio.play();}
+        function play2() {
+        var audio = document.getElementById("audio3");
+        audio.play();}
+        function play3() {
+        var audio = document.getElementById("audio4");
+        audio.play();}
+        function play4() {
+        var audio = document.getElementById("audio5");
+        audio.play();}
+        function play5() {
+        var audio = document.getElementById("audio6");
+        audio.play();}
+        function play6() {
+        var audio = document.getElementById("audio7");
+        audio.play();}
+        function play7() {
+        var audio = document.getElementById("audio8");
+        audio.play();}
+        function play8() {
+        var audio = document.getElementById("audio9");
+        audio.play();}
+        function play9() {
+        var audio = document.getElementById("audio10");
+        audio.play();}
+        function play10() {
+        var audio = document.getElementById("audio11");
+        audio.play();}
+        function play11() {
+        var audio = document.getElementById("audio12");
+        audio.play();}
+
+    </script>
+    <style>
+        body{
+            background-image: linear-gradient(to bottom, black,brown,rgb(199, 63, 63));
+        }
+        #piano{
+            width: 600px;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            position: relative;
+            left: 30%;
+        }
+        #white:hover{
+           background-color: cornsilk;
+           cursor: pointer;
+        }
+        #black:hover{
+           background-color: rgb(44, 44, 42);
+           cursor: pointer;
+        }
+        #white{
+            width: 20%;
+            height: 100%;
+            background-color: white;
+            border: 1px solid brown;
+        }
+        #black
+        {
+            width: 20%;
+            height: 50%;
+            background-color: black;
+            margin-left: -8%;
+            margin-right: -8%;
+            z-index: 2;
+            border: 1px solid white;
+        }
+    </style>
+    <body>
+        <div id="piano"> 
+        <div id="white" onclick="play()"> </div>
+        <audio id="audio1" src="a3-4.wav"></audio>
+        <div id="black" onclick="play1()"> </div>
+        <audio id="audio2" src="a3.wav"></audio>
+        <div id="white" onclick="play2()"> </div>
+        <audio id="audio3" src="b3.wav"></audio>
+        <div id="black" onclick="play3()"> </div>
+        <audio id="audio4" src="e2.wav"></audio>
+        <div id="white" onclick="play4()"> </div>
+        <audio id="audio5" src="Ex_02.mp3"></audio>
+        <div id="white" onclick="play5()"> </div>
+        <audio id="audio6" src="hardmiddleC.wav"></audio>
+        <div id="black" onclick="play6()"> </div>
+        <audio id="audio7" src="i.wav"></audio>
+        <div id="white" onclick="play7()"> </div>
+        <audio id="audio8" src="orig4.wav"></audio>
+        <div id="black" onclick="play8()"> </div>
+        <audio id="audio9" src="pia60.wav"></audio>
+        <div id="white" onclick="play9()"> </div>
+        <audio id="audio10" src="Piano Bass Key-2826-Free-Loops.com.mp3"></audio>
+        <div id="black" onclick="play10()"> </div>
+        <audio id="audio11" src="piano_F_sharp.mp3"></audio>
+        <div id="white" onclick="play11()"> </div>
+        <audio id="audio12" src="sss3orig.wav"></audio>
+    </div>
+    </body>
+</html>
